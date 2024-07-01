@@ -193,6 +193,8 @@ body {
 
 .location-container {
   padding: 25px 35px;
+  display: flex;
+  align-items:center;
 }
 
 .location-input {
@@ -209,6 +211,16 @@ body {
   transition: transform 200ms ease;
 }
 
+.location-input::placeholder{
+  color: #000000;
+}
+
+.location-container i{
+  position: absolute;
+  right: 54px;
+  color: rgb(24, 25, 29);
+}
+
 .location-input:hover {
   transform: scale(0.95);
-}
+} 
